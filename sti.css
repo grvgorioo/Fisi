@@ -76,10 +76,10 @@ p{
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #e91e63;
+    border: 2px solid #24404c;
     color: #fff;
     text-decoration: none;
-    background-color: #e91e63;
+    background-color: #1f53c5;
 }
 .btn:hover{
     background: none;
@@ -91,7 +91,28 @@ p{
     justify-content: center;
     align-items: center;
 }
-
+.controls{
+    width: 100%;
+    background: #24404c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+.calculos{
+    padding: 100px;
+    height: 70vh;
+    background: #171717;
+}
+.contenedor{
+    background: #171717;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .sau{
     display: flex;
 }
@@ -144,6 +165,43 @@ p{
     padding: 0 15px;
     font-size: 16px;
 }
+
+.slider-box{
+    width: 1200px;
+    height: auto;
+    margin: 50px auto 0;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box img{
+    width: 100%;
+
+}
+
+@keyframes slide{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
 .price{
     background: url(img/costos.jpg)no-repeat center;
     background-size: cover;
