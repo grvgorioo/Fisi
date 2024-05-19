@@ -128,7 +128,7 @@ p{
 .prototipo{
     letter-spacing: 1.5px;
 }
-.bloque1 ul li{
+ul li{
     color: white;
     text-align: center;
     list-style: none;
