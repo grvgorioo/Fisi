@@ -125,7 +125,14 @@ p{
 .sau{
     display: flex;
 }
-
+.prototipo{
+    letter-spacing: 1.5px;
+}
+.bloque1 ul li{
+    color: white;
+    text-align: center;
+    list-style: none;
+}
 .bloque1{
     width: 50%;
     background: #171717;
